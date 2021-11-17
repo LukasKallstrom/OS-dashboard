@@ -1,1 +1,1 @@
-web: gunicorn realmain.py:server
+web: gunicorn realmain:server
