@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+seaborn = "*"
+numpy = "*"
+plotly-express = "*"
+nbformat = "*"
+dash = "*"
+matplotlib = "*"
+dash-bootstrap-components = "*"
+gunicorn = "*"
+
+[dev-packages]
+ipykernel = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
